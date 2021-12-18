@@ -1,5 +1,12 @@
-Andrew Gugger 702424045
+Andrew Gugger
 
+How to compile:
+to compile: "make"
+Run: "make run"
+to clean: "make clean"
+Refer to the Makefile for compiling details.
+
+About the game/How to play:
 This project is connect 4 with 4 rows and 5 columns. The user uses the joystick to aim where to "drop" 
 a chip. When the blue player finds the column that they like they can click the joystick and the "chip" will "drop".
 When the joystick is clicked the color of the LED will change to indicate that it is the Red's Player turn. 
@@ -8,3 +15,4 @@ When the first player gets connect 4 in either a row, column or diagonal the gam
 to the player that won that round. In order to wipe the board and start the next round you have to shake the pi to start again. The first
 player to win 3 rounds wins. You must shake the pi again to display the winner. The pi will display all LED's lit the color of whichever player won.
 Then shake the pi again to end the game and close the program.
+
